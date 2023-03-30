@@ -41,6 +41,7 @@ header{
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
+    
 }
 .scroll_down{
 position: absolute;
@@ -50,6 +51,12 @@ transform: rotate(90deg);
 font-weight: 300;
 font-size: 0.9rem;
 }
+.me img {
+    width: 100%;
+    height: auto;
+    border-radius: 30%;
+    margin-top: -20%;
+  }
 @media screen and (max-width:1024px){
     header{
         height: 68vh;
